@@ -7,35 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181EC6295452A65DEFE7F576 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F84D01B3CA20A9A11E22A9 /* libPods.a */; };
+		652901BF1A9D1B8600849C6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652901BE1A9D1B8600849C6F /* Images.xcassets */; };
+		653DFB951A9D5650002CA846 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 653DFB941A9D5650002CA846 /* Info.plist */; };
+		653DFB971A9D753C002CA846 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653DFB961A9D753C002CA846 /* Launch Screen.xib */; };
+		653E47311A96E976003C2ABF /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E47301A96E976003C2ABF /* PasswordViewController.swift */; };
+		653E47331A96E9F6003C2ABF /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E47321A96E9F6003C2ABF /* SettingsTableViewCell.swift */; };
+		653E47351A96EA6E003C2ABF /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E47341A96EA6E003C2ABF /* SettingsTableViewController.swift */; };
+		653E47371A96EB98003C2ABF /* PPaswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E47361A96EB98003C2ABF /* PPaswordViewController.swift */; };
+		655D40C51A966EE500AF3E6C /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655D40C41A966EE500AF3E6C /* PasswordView.swift */; };
+		655D40CD1A967D0300AF3E6C /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655D40CC1A967D0300AF3E6C /* PasswordController.swift */; };
+		65713B9F1A9A6BC200F2BBC9 /* Str.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65713B9E1A9A6BC200F2BBC9 /* Str.swift */; };
+		658011C11A9553BB00F48732 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011B41A9553BB00F48732 /* Sequence.swift */; };
+		658011C21A9553BB00F48732 /* ExSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011B51A9553BB00F48732 /* ExSwift.swift */; };
+		658011C31A9553BB00F48732 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011B61A9553BB00F48732 /* Array.swift */; };
+		658011C41A9553BB00F48732 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011B71A9553BB00F48732 /* Character.swift */; };
+		658011C51A9553BB00F48732 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011B81A9553BB00F48732 /* Dictionary.swift */; };
+		658011C61A9553BB00F48732 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011B91A9553BB00F48732 /* Double.swift */; };
+		658011C71A9553BB00F48732 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011BA1A9553BB00F48732 /* Float.swift */; };
+		658011C81A9553BB00F48732 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011BB1A9553BB00F48732 /* Int.swift */; };
+		658011C91A9553BB00F48732 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011BC1A9553BB00F48732 /* Range.swift */; };
+		658011CA1A9553BB00F48732 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011BD1A9553BB00F48732 /* String.swift */; };
+		658011CB1A9553BB00F48732 /* NSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011BE1A9553BB00F48732 /* NSArray.swift */; };
+		658011CC1A9553BB00F48732 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011BF1A9553BB00F48732 /* NSDate.swift */; };
+		658011CD1A9553BB00F48732 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658011C01A9553BB00F48732 /* Bool.swift */; };
 		65B714F21A94D1E300DA52A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B714F11A94D1E300DA52A4 /* AppDelegate.swift */; };
-		65B714F41A94D1E300DA52A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B714F31A94D1E300DA52A4 /* ViewController.swift */; };
-		65B714F71A94D1E300DA52A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B714F51A94D1E300DA52A4 /* Main.storyboard */; };
-		65B714F91A94D1E300DA52A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B714F81A94D1E300DA52A4 /* Images.xcassets */; };
-		65B714FC1A94D1E300DA52A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B714FA1A94D1E300DA52A4 /* LaunchScreen.xib */; };
-		65B715081A94D1E300DA52A4 /* PasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B715071A94D1E300DA52A4 /* PasswordTests.swift */; };
+		65B715141A94D81B00DA52A4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B715131A94D81B00DA52A4 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		65B715021A94D1E300DA52A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 65B714E41A94D1E300DA52A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65B714EB1A94D1E300DA52A4;
-			remoteInfo = Password;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3E3A6411097C28BEC5570484 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		50AC5754753E0DB61A49697E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		652901BE1A9D1B8600849C6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		653DFB941A9D5650002CA846 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653DFB961A9D753C002CA846 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		653E47301A96E976003C2ABF /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		653E47321A96E9F6003C2ABF /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		653E47341A96EA6E003C2ABF /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		653E47361A96EB98003C2ABF /* PPaswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPaswordViewController.swift; sourceTree = "<group>"; };
+		655D40C41A966EE500AF3E6C /* PasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		655D40C81A9675DF00AF3E6C /* Password-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Password-Bridging-Header.h"; sourceTree = "<group>"; };
+		655D40CC1A967D0300AF3E6C /* PasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		65713B9E1A9A6BC200F2BBC9 /* Str.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Str.swift; sourceTree = "<group>"; };
+		658011B41A9553BB00F48732 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		658011B51A9553BB00F48732 /* ExSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSwift.swift; sourceTree = "<group>"; };
+		658011B61A9553BB00F48732 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		658011B71A9553BB00F48732 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		658011B81A9553BB00F48732 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		658011B91A9553BB00F48732 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		658011BA1A9553BB00F48732 /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
+		658011BB1A9553BB00F48732 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		658011BC1A9553BB00F48732 /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		658011BD1A9553BB00F48732 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		658011BE1A9553BB00F48732 /* NSArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSArray.swift; sourceTree = "<group>"; };
+		658011BF1A9553BB00F48732 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+		658011C01A9553BB00F48732 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
 		65B714EC1A94D1E300DA52A4 /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B714F01A94D1E300DA52A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B714F11A94D1E300DA52A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65B714F31A94D1E300DA52A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		65B714F61A94D1E300DA52A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65B714F81A94D1E300DA52A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		65B714FB1A94D1E300DA52A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		65B715011A94D1E300DA52A4 /* PasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B715061A94D1E300DA52A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65B715071A94D1E300DA52A4 /* PasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTests.swift; sourceTree = "<group>"; };
+		65B715131A94D81B00DA52A4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		93F84D01B3CA20A9A11E22A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,25 +73,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65B714FE1A94D1E300DA52A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				65B715141A94D81B00DA52A4 /* Crashlytics.framework in Frameworks */,
+				181EC6295452A65DEFE7F576 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		655D40C31A966DBB00AF3E6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				655D40C41A966EE500AF3E6C /* PasswordView.swift */,
+				653E47321A96E9F6003C2ABF /* SettingsTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		658011AF1A95525A00F48732 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				658011B41A9553BB00F48732 /* Sequence.swift */,
+				658011B51A9553BB00F48732 /* ExSwift.swift */,
+				658011B61A9553BB00F48732 /* Array.swift */,
+				658011B71A9553BB00F48732 /* Character.swift */,
+				658011B81A9553BB00F48732 /* Dictionary.swift */,
+				658011B91A9553BB00F48732 /* Double.swift */,
+				658011BA1A9553BB00F48732 /* Float.swift */,
+				658011BB1A9553BB00F48732 /* Int.swift */,
+				658011BC1A9553BB00F48732 /* Range.swift */,
+				658011BD1A9553BB00F48732 /* String.swift */,
+				658011BE1A9553BB00F48732 /* NSArray.swift */,
+				658011BF1A9553BB00F48732 /* NSDate.swift */,
+				658011C01A9553BB00F48732 /* Bool.swift */,
+				65713B9E1A9A6BC200F2BBC9 /* Str.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		658011CE1A95551F00F48732 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				655D40CC1A967D0300AF3E6C /* PasswordController.swift */,
+				653E47301A96E976003C2ABF /* PasswordViewController.swift */,
+				653E47341A96EA6E003C2ABF /* SettingsTableViewController.swift */,
+				653E47361A96EB98003C2ABF /* PPaswordViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		65B714E31A94D1E300DA52A4 = {
 			isa = PBXGroup;
 			children = (
+				658011AF1A95525A00F48732 /* Extensions */,
 				65B714EE1A94D1E300DA52A4 /* Password */,
-				65B715041A94D1E300DA52A4 /* PasswordTests */,
 				65B714ED1A94D1E300DA52A4 /* Products */,
+				65B715111A94D81B00DA52A4 /* Vendor */,
+				FF13F6E937AD12644163A2B8 /* Pods */,
+				726230067CF6CE0C3D9A5A00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				65B714EC1A94D1E300DA52A4 /* Password.app */,
-				65B715011A94D1E300DA52A4 /* PasswordTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +145,11 @@
 		65B714EE1A94D1E300DA52A4 /* Password */ = {
 			isa = PBXGroup;
 			children = (
-				65B714F11A94D1E300DA52A4 /* AppDelegate.swift */,
-				65B714F31A94D1E300DA52A4 /* ViewController.swift */,
-				65B714F51A94D1E300DA52A4 /* Main.storyboard */,
-				65B714F81A94D1E300DA52A4 /* Images.xcassets */,
-				65B714FA1A94D1E300DA52A4 /* LaunchScreen.xib */,
+				655D40C31A966DBB00AF3E6C /* Views */,
+				658011CE1A95551F00F48732 /* Controllers */,
 				65B714EF1A94D1E300DA52A4 /* Supporting Files */,
+				655D40C81A9675DF00AF3E6C /* Password-Bridging-Header.h */,
+				65B715051A94D1E300DA52A4 /* Supporting Files */,
 			);
 			path = Password;
 			sourceTree = "<group>";
@@ -90,26 +157,53 @@
 		65B714EF1A94D1E300DA52A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				65B714F01A94D1E300DA52A4 /* Info.plist */,
+				652901BE1A9D1B8600849C6F /* Images.xcassets */,
+				65B714F11A94D1E300DA52A4 /* AppDelegate.swift */,
+				653DFB961A9D753C002CA846 /* Launch Screen.xib */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		65B715041A94D1E300DA52A4 /* PasswordTests */ = {
-			isa = PBXGroup;
-			children = (
-				65B715071A94D1E300DA52A4 /* PasswordTests.swift */,
-				65B715051A94D1E300DA52A4 /* Supporting Files */,
-			);
-			path = PasswordTests;
 			sourceTree = "<group>";
 		};
 		65B715051A94D1E300DA52A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				65B715061A94D1E300DA52A4 /* Info.plist */,
+				653DFB941A9D5650002CA846 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = PasswordTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		65B715111A94D81B00DA52A4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				65B715121A94D81B00DA52A4 /* Crashlytics */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		65B715121A94D81B00DA52A4 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				65B715131A94D81B00DA52A4 /* Crashlytics.framework */,
+			);
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		726230067CF6CE0C3D9A5A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F84D01B3CA20A9A11E22A9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF13F6E937AD12644163A2B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E3A6411097C28BEC5570484 /* Pods.debug.xcconfig */,
+				50AC5754753E0DB61A49697E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B7150B1A94D1E300DA52A4 /* Build configuration list for PBXNativeTarget "Password" */;
 			buildPhases = (
+				4F547B91D90FAE00B4C89392 /* Check Pods Manifest.lock */,
 				65B714E81A94D1E300DA52A4 /* Sources */,
 				65B714E91A94D1E300DA52A4 /* Frameworks */,
 				65B714EA1A94D1E300DA52A4 /* Resources */,
+				657A3DF91A94DEC3005D0C77 /* ShellScript */,
+				BFDB91C2ADC7442C38116151 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,24 +228,6 @@
 			productName = Password;
 			productReference = 65B714EC1A94D1E300DA52A4 /* Password.app */;
 			productType = "com.apple.product-type.application";
-		};
-		65B715001A94D1E300DA52A4 /* PasswordTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65B7150E1A94D1E300DA52A4 /* Build configuration list for PBXNativeTarget "PasswordTests" */;
-			buildPhases = (
-				65B714FD1A94D1E300DA52A4 /* Sources */,
-				65B714FE1A94D1E300DA52A4 /* Frameworks */,
-				65B714FF1A94D1E300DA52A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65B715031A94D1E300DA52A4 /* PBXTargetDependency */,
-			);
-			name = PasswordTests;
-			productName = PasswordTests;
-			productReference = 65B715011A94D1E300DA52A4 /* PasswordTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -161,10 +240,7 @@
 				TargetAttributes = {
 					65B714EB1A94D1E300DA52A4 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					65B715001A94D1E300DA52A4 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 65B714EB1A94D1E300DA52A4;
+						DevelopmentTeam = 5JWGM7A2T3;
 					};
 				};
 			};
@@ -182,7 +258,6 @@
 			projectRoot = "";
 			targets = (
 				65B714EB1A94D1E300DA52A4 /* Password */,
-				65B715001A94D1E300DA52A4 /* PasswordTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,67 +267,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B714F71A94D1E300DA52A4 /* Main.storyboard in Resources */,
-				65B714FC1A94D1E300DA52A4 /* LaunchScreen.xib in Resources */,
-				65B714F91A94D1E300DA52A4 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65B714FF1A94D1E300DA52A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				653DFB951A9D5650002CA846 /* Info.plist in Resources */,
+				652901BF1A9D1B8600849C6F /* Images.xcassets in Resources */,
+				653DFB971A9D753C002CA846 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F547B91D90FAE00B4C89392 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		657A3DF91A94DEC3005D0C77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 9f18d825f4d4e77735b5bc9e3bed78959c905ec4 67479f1753bc429107cdd6a2bc0e5b982b6d5eb0834833cf08e30e33e4c684dd";
+		};
+		BFDB91C2ADC7442C38116151 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65B714E81A94D1E300DA52A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B714F41A94D1E300DA52A4 /* ViewController.swift in Sources */,
+				658011C91A9553BB00F48732 /* Range.swift in Sources */,
+				658011CB1A9553BB00F48732 /* NSArray.swift in Sources */,
+				65713B9F1A9A6BC200F2BBC9 /* Str.swift in Sources */,
+				658011C31A9553BB00F48732 /* Array.swift in Sources */,
+				658011CC1A9553BB00F48732 /* NSDate.swift in Sources */,
+				653E47331A96E9F6003C2ABF /* SettingsTableViewCell.swift in Sources */,
+				658011C61A9553BB00F48732 /* Double.swift in Sources */,
 				65B714F21A94D1E300DA52A4 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65B714FD1A94D1E300DA52A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65B715081A94D1E300DA52A4 /* PasswordTests.swift in Sources */,
+				658011C41A9553BB00F48732 /* Character.swift in Sources */,
+				658011CD1A9553BB00F48732 /* Bool.swift in Sources */,
+				658011CA1A9553BB00F48732 /* String.swift in Sources */,
+				658011C51A9553BB00F48732 /* Dictionary.swift in Sources */,
+				655D40C51A966EE500AF3E6C /* PasswordView.swift in Sources */,
+				658011C21A9553BB00F48732 /* ExSwift.swift in Sources */,
+				658011C81A9553BB00F48732 /* Int.swift in Sources */,
+				658011C11A9553BB00F48732 /* Sequence.swift in Sources */,
+				653E47351A96EA6E003C2ABF /* SettingsTableViewController.swift in Sources */,
+				653E47371A96EB98003C2ABF /* PPaswordViewController.swift in Sources */,
+				658011C71A9553BB00F48732 /* Float.swift in Sources */,
+				655D40CD1A967D0300AF3E6C /* PasswordController.swift in Sources */,
+				653E47311A96E976003C2ABF /* PasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		65B715031A94D1E300DA52A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 65B714EB1A94D1E300DA52A4 /* Password */;
-			targetProxy = 65B715021A94D1E300DA52A4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		65B714F51A94D1E300DA52A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65B714F61A94D1E300DA52A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65B714FA1A94D1E300DA52A4 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65B714FB1A94D1E300DA52A4 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65B715091A94D1E300DA52A4 /* Debug */ = {
@@ -289,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -334,55 +432,42 @@
 		};
 		65B7150C1A94D1E300DA52A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3A6411097C28BEC5570484 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Crashlytics",
+				);
 				INFOPLIST_FILE = Password/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Password/Password-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		65B7150D1A94D1E300DA52A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AC5754753E0DB61A49697E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Crashlytics",
+				);
 				INFOPLIST_FILE = Password/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		65B7150F1A94D1E300DA52A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PasswordTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password.app/Password";
-			};
-			name = Debug;
-		};
-		65B715101A94D1E300DA52A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PasswordTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password.app/Password";
+				SWIFT_OBJC_BRIDGING_HEADER = "Password/Password-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,14 +490,7 @@
 				65B7150D1A94D1E300DA52A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		65B7150E1A94D1E300DA52A4 /* Build configuration list for PBXNativeTarget "PasswordTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65B7150F1A94D1E300DA52A4 /* Debug */,
-				65B715101A94D1E300DA52A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
